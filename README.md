@@ -1,6 +1,6 @@
 # CIDR to IP Range
 
-This PHP script converts CIDR into IP range in a CSV file.
+This PHP script converts CIDR into IP range (dotted format) in a CSV file. This converter only support IPv4 conversion.
 
 
 
@@ -39,4 +39,7 @@ php cidr-to-ip.php ip-cidr.csv ip-cidr-new.csv
 "212.214.138.0","212.214.138.15","16","SE","Sweden"
 "216.224.227.128","216.224.227.159","32","US","United States"
 ```
+
+## Support
+URL: https://www.ip2location.com
 
